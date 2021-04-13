@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Products">
+      <UniqueIdentifier>{164171a0-6dc3-494a-908a-f8734fd134c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Products">
+      <UniqueIdentifier>{1572fac6-7f53-49ed-be76-030fc9c3a881}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Products\Category1">
+      <UniqueIdentifier>{aef99055-933f-472f-a059-2af8a8d5b689}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Products\Category2">
+      <UniqueIdentifier>{c049981b-5184-4bfa-84ed-dfbe36344a90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Products\Category3">
+      <UniqueIdentifier>{a19b04c1-276b-4b53-90e5-fd8999f83912}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Products\Category4">
+      <UniqueIdentifier>{ac8f2d61-bd93-45b4-9702-e9e91c1e6c91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Products\Category5">
+      <UniqueIdentifier>{037a74e9-b9b9-4325-8aa9-63c90a71c7a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Products\Category6">
+      <UniqueIdentifier>{899bf28b-699e-441c-8246-77a3fd8aab48}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Product.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BluetoothHeadset.cpp">
+      <Filter>Source Files\Products\Category1</Filter>
+    </ClCompile>
+    <ClCompile Include="Cover.cpp">
+      <Filter>Source Files\Products\Category1</Filter>
+    </ClCompile>
+    <ClCompile Include="Headphone.cpp">
+      <Filter>Source Files\Products\Category1</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryCard.cpp">
+      <Filter>Source Files\Products\Category1</Filter>
+    </ClCompile>
+    <ClCompile Include="PortableSpeakers.cpp">
+      <Filter>Source Files\Products\Category1</Filter>
+    </ClCompile>
+    <ClCompile Include="ProtectiveGlass.cpp">
+      <Filter>Source Files\Products\Category1</Filter>
+    </ClCompile>
+    <ClCompile Include="SIMCard.cpp">
+      <Filter>Source Files\Products\Category1</Filter>
+    </ClCompile>
+    <ClCompile Include="Smartphone.cpp">
+      <Filter>Source Files\Products\Category1</Filter>
+    </ClCompile>
+    <ClCompile Include="Telephone.cpp">
+      <Filter>Source Files\Products\Category1</Filter>
+    </ClCompile>
+    <ClCompile Include="Accessories.cpp">
+      <Filter>Source Files\Products\Category2</Filter>
+    </ClCompile>
+    <ClCompile Include="DDR.cpp">
+      <Filter>Source Files\Products\Category2</Filter>
+    </ClCompile>
+    <ClCompile Include="Laptop.cpp">
+      <Filter>Source Files\Products\Category2</Filter>
+    </ClCompile>
+    <ClCompile Include="Printer.cpp">
+      <Filter>Source Files\Products\Category2</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerSupplies.cpp">
+      <Filter>Source Files\Products\Category2</Filter>
+    </ClCompile>
+    <ClCompile Include="Processor.cpp">
+      <Filter>Source Files\Products\Category2</Filter>
+    </ClCompile>
+    <ClCompile Include="Router.cpp">
+      <Filter>Source Files\Products\Category2</Filter>
+    </ClCompile>
+    <ClCompile Include="Storage.cpp">
+      <Filter>Source Files\Products\Category2</Filter>
+    </ClCompile>
+    <ClCompile Include="Videocard.cpp">
+      <Filter>Source Files\Products\Category2</Filter>
+    </ClCompile>
+    <ClCompile Include="Motherboard.cpp">
+      <Filter>Source Files\Products\Category2</Filter>
+    </ClCompile>
+    <ClCompile Include="PCAccessories.cpp">
+      <Filter>Source Files\Products\Category2</Filter>
+    </ClCompile>
+    <ClCompile Include="PhoneAccessories.cpp">
+      <Filter>Source Files\Products\Category1</Filter>
+    </ClCompile>
+    <ClCompile Include="Multimedia.cpp">
+      <Filter>Source Files\Products\Category3</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectors.cpp">
+      <Filter>Source Files\Products\Category3</Filter>
+    </ClCompile>
+    <ClCompile Include="Television.cpp">
+      <Filter>Source Files\Products\Category3</Filter>
+    </ClCompile>
+    <ClCompile Include="TVAccessories.cpp">
+      <Filter>Source Files\Products\Category3</Filter>
+    </ClCompile>
+    <ClCompile Include="Printer3D.cpp">
+      <Filter>Source Files\Products\Category4</Filter>
+    </ClCompile>
+    <ClCompile Include="Quadrocopter.cpp">
+      <Filter>Source Files\Products\Category4</Filter>
+    </ClCompile>
+    <ClCompile Include="SmartWatches.cpp">
+      <Filter>Source Files\Products\Category4</Filter>
+    </ClCompile>
+    <ClCompile Include="ShoppingCart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EBook.cpp">
+      <Filter>Source Files\Products\Category5</Filter>
+    </ClCompile>
+    <ClCompile Include="Tablet.cpp">
+      <Filter>Source Files\Products\Category5</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Products\Category6</Filter>
+    </ClCompile>
+    <ClCompile Include="PhotoCamera.cpp">
+      <Filter>Source Files\Products\Category6</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoCamera.cpp">
+      <Filter>Source Files\Products\Category6</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainForm.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Product.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Smartphone.h">
+      <Filter>Header Files\Products</Filter>
+    </ClInclude>
+    <ClInclude Include="Accessories.h">
+      <Filter>Header Files\Products</Filter>
+    </ClInclude>
+    <ClInclude Include="BluetoothHeadset.h">
+      <Filter>Header Files\Products</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\Products</Filter>
+    </ClInclude>
+    <ClInclude Include="Cover.h">
+      <Filter>Header Files\Products</Filter>
+    </ClInclude>
+    <ClInclude Include="DDR.h">
+      <Filter>Header Files\Products</Filter>
+    </ClInclude>
+    <ClInclude Include="EBook.h">
+      <Filter>Header Files\Products</Filter>
+    </ClInclude>
+    <ClInclude Include="Headphone.h">
+      <Filter>Header Files\Products</Filter>
+    </ClInclude>
+    <ClInclude Include="Laptop.h">
+      <Filter>Header Files\Products</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryCard.h">
+      <Filter>Header Files\Products</Filter>
+    </ClInclude>
+    <ClInclude Include="Motherboard.h">
+      <Filter>Header Files\Products</Filter>
+    </ClInclude>
+    <ClInclude Include="Multimedia.h">
+      <Filter>Header Files\Products</Filter>
+    </ClInclude>
+    <ClInclude Include="PCAccessories.h">
+      <Filter>Header Files\Products</Filter>
+    </ClInclude>
+    <ClInclude Include="PhoneAccessories.h">
+      <Filter>Header Files\Products</Filter>
+    </ClInclude>
+    <ClInclude Include="PhotoCamera.h">
+      <Filter>Header Files\Products</Filter>
+    </ClInclude>
+    <ClInclude Include="PortableSpeakers.h">
+      <Filter>Header Files\Products</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerSupplies.h">
+      <Filter>Header Files\Products</Filter>
+    </ClInclude>
+    <ClInclude Include="Printer.h">
+      <Filter>Header Files\Products</Filter>
+    </ClInclude>
+    <ClInclude Include="Printer3D.h">
+      <Filter>Header Files\Products</Filter>
+    </ClInclude>
+    <ClInclude Include="Processor.h">
+      <Filter>Header Files\Products</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectors.h">
+      <Filter>Header Files\Products</Filter>
+    </ClInclude>
+    <ClInclude Include="ProtectiveGlass.h">
+      <Filter>Header Files\Products</Filter>
+    </ClInclude>
+    <ClInclude Include="Quadrocopter.h">
+      <Filter>Header Files\Products</Filter>
+    </ClInclude>
+    <ClInclude Include="Router.h">
+      <Filter>Header Files\Products</Filter>
+    </ClInclude>
+    <ClInclude Include="ShoppingCart.h">
+      <Filter>Header Files\Products</Filter>
+    </ClInclude>
+    <ClInclude Include="SIMCard.h">
+      <Filter>Header Files\Products</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartWatches.h">
+      <Filter>Header Files\Products</Filter>
+    </ClInclude>
+    <ClInclude Include="Storage.h">
+      <Filter>Header Files\Products</Filter>
+    </ClInclude>
+    <ClInclude Include="Tablet.h">
+      <Filter>Header Files\Products</Filter>
+    </ClInclude>
+    <ClInclude Include="Telephone.h">
+      <Filter>Header Files\Products</Filter>
+    </ClInclude>
+    <ClInclude Include="Television.h">
+      <Filter>Header Files\Products</Filter>
+    </ClInclude>
+    <ClInclude Include="TVAccessories.h">
+      <Filter>Header Files\Products</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoCamera.h">
+      <Filter>Header Files\Products</Filter>
+    </ClInclude>
+    <ClInclude Include="Videocard.h">
+      <Filter>Header Files\Products</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="SmartphonesList.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="VideocardsList.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="VideoCamerasList.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="TVsList.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="TVAccessoriesList.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="TelephoneList.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="TabletsList.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="StoragesList.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="SmartWatchesList.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="SIMCardList.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="ShoppingCartAdminList.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="ShoppingCart.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="RoutersList.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="QuadrocoptersList.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="ProtectiveGlassList.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="ProjectorsList.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="ProcessorsList.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="PrintersList.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Printer3DList.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="PowerSuppliesList.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="PortableSpeakersList.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="PhotoCamerasList.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="MultimediasList.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="MotherboardsList.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="MemoryCardList.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="LaptopsList.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="HeadphoneList.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="EBooksList.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="DDRsList.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="CoverList.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="BluetoothHeadsetList.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AccessoriesList.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

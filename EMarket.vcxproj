@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{9DF92554-4DE2-4880-AA92-39F5C7E285B0}</ProjectGuid>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>EMarket</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <EntryPointSymbol>main</EntryPointSymbol>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <EntryPointSymbol>main</EntryPointSymbol>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Accessories.cpp" />
+    <ClCompile Include="BluetoothHeadset.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Cover.cpp" />
+    <ClCompile Include="DDR.cpp" />
+    <ClCompile Include="EBook.cpp" />
+    <ClCompile Include="Headphone.cpp" />
+    <ClCompile Include="Laptop.cpp" />
+    <ClCompile Include="MainForm.cpp" />
+    <ClCompile Include="MemoryCard.cpp" />
+    <ClCompile Include="Motherboard.cpp" />
+    <ClCompile Include="Multimedia.cpp" />
+    <ClCompile Include="PCAccessories.cpp" />
+    <ClCompile Include="PhoneAccessories.cpp" />
+    <ClCompile Include="PhotoCamera.cpp" />
+    <ClCompile Include="PortableSpeakers.cpp" />
+    <ClCompile Include="PowerSupplies.cpp" />
+    <ClCompile Include="Printer.cpp" />
+    <ClCompile Include="Printer3D.cpp" />
+    <ClCompile Include="Processor.cpp" />
+    <ClCompile Include="Product.cpp" />
+    <ClCompile Include="Projectors.cpp" />
+    <ClCompile Include="ProtectiveGlass.cpp" />
+    <ClCompile Include="Quadrocopter.cpp" />
+    <ClCompile Include="Router.cpp" />
+    <ClCompile Include="ShoppingCart.cpp" />
+    <ClCompile Include="SIMCard.cpp" />
+    <ClCompile Include="Smartphone.cpp" />
+    <ClCompile Include="SmartWatches.cpp" />
+    <ClCompile Include="Storage.cpp" />
+    <ClCompile Include="Tablet.cpp" />
+    <ClCompile Include="Telephone.cpp" />
+    <ClCompile Include="Television.cpp" />
+    <ClCompile Include="TVAccessories.cpp" />
+    <ClCompile Include="VideoCamera.cpp" />
+    <ClCompile Include="Videocard.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Accessories.h" />
+    <ClInclude Include="BluetoothHeadset.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Cover.h" />
+    <ClInclude Include="DDR.h" />
+    <ClInclude Include="EBook.h" />
+    <ClInclude Include="Headphone.h" />
+    <ClInclude Include="Laptop.h" />
+    <ClInclude Include="MainForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="MemoryCard.h" />
+    <ClInclude Include="Motherboard.h" />
+    <ClInclude Include="Multimedia.h" />
+    <ClInclude Include="PCAccessories.h" />
+    <ClInclude Include="PhoneAccessories.h" />
+    <ClInclude Include="PhotoCamera.h" />
+    <ClInclude Include="PortableSpeakers.h" />
+    <ClInclude Include="PowerSupplies.h" />
+    <ClInclude Include="Printer.h" />
+    <ClInclude Include="Printer3D.h" />
+    <ClInclude Include="Processor.h" />
+    <ClInclude Include="Product.h" />
+    <ClInclude Include="Projectors.h" />
+    <ClInclude Include="ProtectiveGlass.h" />
+    <ClInclude Include="Quadrocopter.h" />
+    <ClInclude Include="Router.h" />
+    <ClInclude Include="ShoppingCart.h" />
+    <ClInclude Include="SIMCard.h" />
+    <ClInclude Include="Smartphone.h" />
+    <ClInclude Include="SmartWatches.h" />
+    <ClInclude Include="Storage.h" />
+    <ClInclude Include="Tablet.h" />
+    <ClInclude Include="Telephone.h" />
+    <ClInclude Include="Television.h" />
+    <ClInclude Include="TVAccessories.h" />
+    <ClInclude Include="VideoCamera.h" />
+    <ClInclude Include="Videocard.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="AccessoriesList.txt" />
+    <Text Include="BluetoothHeadsetList.txt" />
+    <Text Include="CoverList.txt" />
+    <Text Include="DDRsList.txt" />
+    <Text Include="EBooksList.txt" />
+    <Text Include="HeadphoneList.txt" />
+    <Text Include="LaptopsList.txt" />
+    <Text Include="MemoryCardList.txt" />
+    <Text Include="MotherboardsList.txt" />
+    <Text Include="MultimediasList.txt" />
+    <Text Include="PhotoCamerasList.txt" />
+    <Text Include="PortableSpeakersList.txt" />
+    <Text Include="PowerSuppliesList.txt" />
+    <Text Include="Printer3DList.txt" />
+    <Text Include="PrintersList.txt" />
+    <Text Include="ProcessorsList.txt" />
+    <Text Include="ProjectorsList.txt" />
+    <Text Include="ProtectiveGlassList.txt" />
+    <Text Include="QuadrocoptersList.txt" />
+    <Text Include="RoutersList.txt" />
+    <Text Include="ShoppingCart.txt" />
+    <Text Include="ShoppingCartAdminList.txt" />
+    <Text Include="SIMCardList.txt" />
+    <Text Include="SmartphonesList.txt" />
+    <Text Include="SmartWatchesList.txt" />
+    <Text Include="StoragesList.txt" />
+    <Text Include="TabletsList.txt" />
+    <Text Include="TelephoneList.txt" />
+    <Text Include="TVAccessoriesList.txt" />
+    <Text Include="TVsList.txt" />
+    <Text Include="VideoCamerasList.txt" />
+    <Text Include="VideocardsList.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
